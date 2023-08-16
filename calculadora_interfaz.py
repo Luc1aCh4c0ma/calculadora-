@@ -22,14 +22,6 @@ def clear():
     operador=("")
     input_text.set("0")
 
-def borrar_uno ():
-    global operador
-    if operador==-1:
-        pass
-    else:
-        Salida.delete(operador, last = None)
-        num=int(operador)
-        num-=1
 
 
 #PRIMEROS ELEMENTOS GRAFICOS: TAMAÑO DE LA CALCULADORA 
